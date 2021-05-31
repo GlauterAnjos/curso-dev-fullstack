@@ -1,0 +1,16 @@
+body {
+    background-image: url(backgroung.teste.jpg);
+   background-repeat: no-repeat;
+   /*background-position: 100% 10%; */
+   background-position: right center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.foto {
+    width: 300px 
+}
+
+p {
+    color:#2e2b2b;
+}
