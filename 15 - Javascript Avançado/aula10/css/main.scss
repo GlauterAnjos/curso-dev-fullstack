@@ -1,0 +1,44 @@
+@import 'base';
+@import 'variables';
+
+
+section {
+    margin-top: -10px;
+    .posts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 30px;
+        margin: 20px 500px 500px 500px;
+        border-radius: 30px;
+        box-shadow: 0px 3px 5px #8b8585;
+        border-style: solid;
+        .centerPost {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .imgPost {
+                width: 400px;
+                border-radius: 30px;
+                margin-bottom: 30px;
+                border-style: solid
+            }
+            .descri {
+                display:flex;
+
+                h3 {
+                    font-family: 'Trispace', sans-serif;
+                    font-size: 20px;
+                    font-weight: 300;
+                    letter-spacing: 2px;
+                    margin-right: 16px;
+                }
+                .icon {
+                    width: 60px;
+                }
+            }
+        }
+    }
+}
+
